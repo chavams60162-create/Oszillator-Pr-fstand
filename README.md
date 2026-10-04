@@ -38,6 +38,9 @@ Ergebnisse
 - Gemessene Frequenz: ~0,85 Hz
 - Abweichung: ~12–18 % (innerhalb des akzeptablen Bereichs)
 - ..........................
+  
+***Hinweis zur Nutzung von KI***
+Während der Entwicklung dieses Projekts wurden KI-Tools als Unterstützung für die Übersetzung ins Deutsche, die Ideenfindung und die Erstellung der Code-Kommentare verwendet. Design, Umsetzung, Montage, Tests und Programmierung wurden vom Autor durchgeführt.
 
 Autor
 Salvador Martínez Santoyo  
