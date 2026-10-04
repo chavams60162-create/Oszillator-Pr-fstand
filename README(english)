@@ -1,4 +1,4 @@
-***Oszillator-Prüfstand / Oscillator Test Stand***
+Oszillator-Prüfstand / Oscillator Test Stand
 
 Description
 An Arduino-based test stand for measuring the frequency stability of a simple pendulum – inspired by balance wheel regulation in mechanical watches.
@@ -45,7 +45,7 @@ Results
 Measured frequency: ~0.85 Hz
 Deviation: ~12–18% (within the acceptable range)
 
-***Video***
+Video
 https://youtu.be/fMC7iJrH5pU?si=q8NbWx_Mj7CZ83-r
 
 Note on the Use of AI
