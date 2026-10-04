@@ -12,7 +12,10 @@ Komponenten
 - 5x 220 Ω Widerstände
 
 Schaltplan
-......,,,,,,,......................
+**Wichtiger Hinweis:**  
+Der Schaltplan und das Anschlussdiagramm befinden sich im **zusätzlichen Dokument (PDF)** im **Abschnitt 3**. Dort findest du die Pläne und wichtige zusätzliche Notizen, um den Schaltplan zu verstehen.
+
+In der Simulation (Tinkercad) wurde anstelle des CNY70 ein Taster verwendet, da der Sensor dort nicht verfügbar ist. Die Position des Tasters und die Kabelführung in der Simulation entsprechen **exakt** dem Anschluss des realen Sensors.
 
 Funktionsweise
 Das Pendel schwingt und unterbricht den Lichtstrahl des CNY70-Sensors. Der Arduino misst die Zeit zwischen den Unterbrechungen und berechnet daraus die Frequenz.
@@ -37,7 +40,9 @@ Ausführung
 Ergebnisse
 - Gemessene Frequenz: ~0,85 Hz
 - Abweichung: ~12–18 % (innerhalb des akzeptablen Bereichs)
-- ..........................
+  
+***video***
+  https://youtu.be/fMC7iJrH5pU?si=q8NbWx_Mj7CZ83-r
   
 ***Hinweis zur Nutzung von KI***
 Während der Entwicklung dieses Projekts wurden KI-Tools als Unterstützung für die Übersetzung ins Deutsche, die Ideenfindung und die Erstellung der Code-Kommentare verwendet. Design, Umsetzung, Montage, Tests und Programmierung wurden vom Autor durchgeführt.
