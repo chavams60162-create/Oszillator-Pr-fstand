@@ -1,1 +1,57 @@
+***Oszillator-Prüfstand / Oscillator Test Stand***
 
+Description
+An Arduino-based test stand for measuring the frequency stability of a simple pendulum – inspired by balance wheel regulation in mechanical watches.
+
+Components
+
+1x Small breadboard
+1x Arduino Uno R3
+1x RGB LED (on pins 8, 9, and 10)
+1x CNY70 sensor (optical reflective sensor, on pin A2)
+1x 10 kΩ resistor
+5x 220 Ω resistors
+
+Circuit Diagram / Wiring Diagram
+***Important note:***
+The circuit diagram and wiring diagram are in the additional document (PDF) in Section 3. There you will find the plans and important additional notes to understand the circuit diagram.
+
+In the simulation (Tinkercad), a push button was used instead of the CNY70 because the sensor is not available there. The position of the push button and the wiring in the simulation correspond exactly to the connection of the real sensor.
+
+How It Works
+The pendulum swings and interrupts the light beam of the CNY70 sensor. The Arduino measures the time between interruptions and calculates the frequency from that.
+
+Initial state: The RGB LED lights up red.
+On each detection: Every time the pendulum passes the sensor, the LED blinks green.
+After 5 stable periods: If no anomaly is detected in 5 consecutive measurements, the LED lights up green continuously.
+In case of an anomaly: If the frequency is outside the allowed range, the system stops, the LED lights up blue, and an error message is displayed.
+
+Acceptable frequency range:
+
+Reference frequency: ~0.85 Hz
+Upper limit: 1.0 Hz
+Lower limit: 0.75 Hz
+Maximum deviation: ~12–18%
+
+Execution
+
+Build the circuit according to the circuit diagram.
+Open the code in the Arduino IDE and upload it to the board.
+Open the serial monitor (9600 baud) to see the measured frequency.
+Set the pendulum in motion and observe the LED indicator.
+
+Results
+
+Measured frequency: ~0.85 Hz
+Deviation: ~12–18% (within the acceptable range)
+
+***Video***
+https://youtu.be/fMC7iJrH5pU?si=q8NbWx_Mj7CZ83-r
+
+Note on the Use of AI
+During the development of this project, AI tools were used as support for the translation into German, idea generation, and creation of code comments. Design, implementation, assembly, testing, and programming were carried out by the author.
+
+Author
+Salvador Martínez Santoyo
+Tecnológico de Monterrey, Campus Querétaro
+GitHub https://github.com/chavams60162-create
